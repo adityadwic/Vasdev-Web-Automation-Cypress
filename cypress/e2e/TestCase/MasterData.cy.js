@@ -43,7 +43,7 @@ describe('Automation Testing Master Data with POM (Page Object Model)', () => {
       pl.clickAddNewPlacements()
       pl.setName('Testing QA')
       pl.setDescription('Testing QA Description')
-      pl.clickSubmit()
+      pl.clickSubmit() 
       cy.wait(2000)
       })
     })

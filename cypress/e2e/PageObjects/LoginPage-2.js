@@ -9,7 +9,7 @@ class Login
     setEmail(email)
     {
         cy.get(this.txtEmail).should('be.visible').type(email)
-    }
+    } 
 
     setPassword(password)
     {
